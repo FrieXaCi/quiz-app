@@ -1,4 +1,5 @@
-const APIUrl = 'https://opentdb.com/api.php?amount=10&type=multiple';
+const APIUrl =
+  'https://opentdb.com/api.php?amount=10&difficulty=medium&type=multiple';
 
 const container = document.querySelector('.container');
 const startQuiz = document.querySelector('.start-quiz');
