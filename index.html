@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Javascript" />
+    <meta name="keyword" content="Javascript" />
+    <meta name="author" content="Frieda Haringsma XaCi development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <script type="text/javascript" src="./script/script.js" defer></script>
+    <title>Quiz app</title>
+  </head>
+
+  <body>
+    <header><h1>Quiz App</h1></header>
+    <!--Start the quiz-->
+    <div class="start-quiz">
+      <p id="title">Let's play a game!</p>
+      <button id="start-btn">Start</button>
+    </div>
+    <!--data quiz-->
+    <div class="container">
+      <div id="progressbar">
+        <div id="progressbar-full"></div>
+      </div>
+      <h3>correct answers:</h3>
+      <div class="quiz-score score">
+        <span id="correct-score"></span>/
+        <span id="total-question"></span>
+      </div>
+      <section class="questions">
+        <span class="question"></span>
+        <ul class="answers quiz-options"></ul>
+        <div id="result"></div>
+        <!-- control quiz-->
+        <div class="quiz-foot">
+          <button type="button" id="check-btn" class="btn">Check answer</button>
+          <button type="button" id="play-again" class="btn hide">
+            Play again
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
